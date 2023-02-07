@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/background.jpg');
+    position: relative;
+    background-repeat: none;
+    background-size: cover;
+}
+nav a img {
+    position: absolute;
+    height: 10vh;
+    top: 10px;
+    left: 20px;
+    border: 1px solid red;
+    border-radius: 10vh;
+}
+.nav-links ul {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links ul li:hover {
+    border: 1px solid gray;
+    font-weight: bolder;
+    background-color: #f44336;
+}
+.welcome {
+    text-align: center;
+    padding-top: 50vh;
+    color: white;
+}
+.welcome h1 {
+    font-size: 40px;
+    font-weight: 1000px;
+    color: white;
+}
+.welcome p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.btn {
+    border: 2px solid orangered;
+    padding: 2px 3px;
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #f44336;
+}
+.welcome a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    height: 65vh;
+    margin: auto;
+    padding: 60px 0px 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 800px;
+    text-transform: capitalize;
+}
+.main p {
+    font-size: 18px;
+    font-weight: 200px;
+    text-align: center;
+    font-style: italic;
+    padding: 7px 0px 10px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 200px;
+    color: blue;
+    text-transform: capitalize;
+}
+p {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.course {
+    display: flex;
+    justify-content: space-around;
+}
+.course-want {
+    flex-basis: 22%;
+    border: 2px solid orangered;
+    background-color: lightgray;
+    border-top-width: 10px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.course-want:hover {
+    background-color: orangered;
+    color: white;
+}
+.campus {
+    height: 85vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.campus img {
+    height: 60vh;
+    width: 50vh;
+    border: 2px solid grey;
+}
+.campus-location {
+    height: 60vh;
+    width: 50vh;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+.facilities {
+    height: 95vh;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.facilities h3 {
+    font-size: 40px;
+    color: black;
+}
+
+.facilities img {
+    height: 60vh;
+    width: 50vh;
+    border: 2px solid gray;
+}
+.f-c {
+    height: 60vh;
+    width: 50vh;
+}
+.f-c h3 {
+    font-size: 22px;
+    padding: 10px 0;
+}
+.testimonial {
+    height: 50vh;
+    margin: auto;
+    padding-top: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tc img {
+    border: 2px solid red;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 20vh;
+}
+
+.tc {
+    display: flex;
+    height: 20vh;
+    width: 65vh;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px 5px 40px;
+    margin-bottom: 80px;
+    background-color: lightgray;
+}
+.sucess {
+    height: 35vh;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('/image/success.jpg');
+    margin: 50px 0px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 200px;
+    padding: 30px 0px;
+    text-transform: capitalize;
+}
+.footer {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: powderblue;
+}
+.sub-header {
+    height: 50vh;
+    background-image: url('/image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    background-position: center;
+}
+
+.sub-header h1 {
+    text-align: center;
+    padding: 20vh;
+    color: white;
+}
+
+.sub-header h3 {
+    color: black;
+    padding: top 123px;
+}
+
+.about-us {
+    margin: 50px 0px;
+}
+
+.about {
+    text-align: center;
+    padding-top: 20px;
+    margin: 5px 20px;
+}
+.about h3 {
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.about img {
+    height: 60vh;
+}
+
+.btn-b {
+    border: 2px solid orangered;
+    padding: 2px 3px;
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.btn-b:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #f44336;
+}
+.location {
+    height: 60vh;
+    margin-bottom: 30px;
+}
+iframe {
+    height: 50vh;
+    width: 200vh;
+    padding: 20px 60px;
+}
+.contact {
+    height: 90vh;
+    margin-bottom: 40px;
+}
+.contact-col {
+    padding-top: 20px;
+    margin: 10px 50px;
+}
+.contact-col img{
+    height: 80vh;
+    width: 85vh;
+}
+.contact-col h1 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.contact textarea {
+    width: 95vh;
+    padding: 15px;
+    margin: 10px 30px 17px;
+    outline: none;
+    border: 2px solid #ccc;
+}
+input{
+    width: 100vh;
+    height: 6vh;
+    margin: 0px 3px 20px 30px;
+    padding: 0px 5px;
+}
+.send{
+    margin: 10px 280px;
+}
+.resi {
+    height: 108vh;
+    margin: auto;
+    text-align: center;
+}
+.resi p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.resi textarea {
+    width: 102vh;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.payment {
+    height: 50vh;
+    text-align: center;
+    margin: 30px 0;
+}
+.payment h1 {
+    padding: 30px;
+}
+.pay {
+    border: 2px solid lightgray;
+    background-color: #ccc;
+    height: 50vh;
+    width: 80vh;
+    margin: 25px 400px;
+}
+.gallery {
+    height: 220vh;
+    margin: auto;
+    text-align: center;
+}
+.gallery h1 {
+    padding-top: 15px;
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 14px;
+    column-gap: 14px;
+    padding: 15px;
+}
+.item img {
+    height: 30vh;
+    width: 50vh;
+    border: 1px solid gray;
+}
+.icon ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 10px 5px;
+    cursor: pointer;
+}
+.icon ul li a {
+    color: black;
+}
